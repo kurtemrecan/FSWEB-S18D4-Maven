@@ -50,11 +50,11 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
  * ```controller``` paketi altında ```BurgerController``` adında 1 tane controller yazmalısınız.
  * BurgerDaoImpl sınıfını BurgerController sınıfı altında ```Dependency Injection``` yöntemini kullanarak çağırınız
  * Amacımız CRUD işlemlerini tanımlayan endpointler yazmak.
- * [GET]/workintech/burgers => tüm burger listini dönmeli.
- * [GET]/workintech/burgers/{id} => İlgili id deki burger objesini dönmeli.
- * [POST]/workintech/burgers => Bir adet burger objesini veritabanına kaydeder.
- * [PUT]/workintech/burgers/{id} => İlgili id deki burger objesinin değerlerini yeni gelen data ile değiştirir.
- * [DELETE]/workintech/burgers/{id} => İlgili id değerindeki burger objesini veritabanından siler.
+ * [GET]/workintech/burgers => tüm burger listini dönmeli.-
+ * [GET]/workintech/burgers/{id} => İlgili id deki burger objesini dönmeli.-
+ * [POST]/workintech/burgers => Bir adet burger objesini veritabanına kaydeder.-
+ * [PUT]/workintech/burgers/{id} => İlgili id deki burger objesinin değerlerini yeni gelen data ile değiştirir.-
+ * [DELETE]/workintech/burgers/{id} => İlgili id değerindeki burger objesini veritabanından siler.-
  * [GET]/workintech/burgers/findByPrice => RequestBody'de price değerini alır ve BurgerDaoImpl sınıfındaki findByPrice metodunu çağırır.
  * [GET]/workintech/burgers/findByBreadType => RequestBody'de breadType değerini alır ve BurgerDaoImpl sınıfındaki findByBreadType metodunu çağırır.
  * [GET]/workintech/burgers/findByContent => RequestBody'de content değerini alır ve BurgerDaoImpl sınıfındaki findByContent metodunu çağırır.
